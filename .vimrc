@@ -43,3 +43,17 @@ set number                      " display line number
 
 ""Files
 set noswapfile                  " do not create swap files
+
+""Move
+noremap <Up> <Nop>              " unavalible to use cross-key
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+
+""avaliable clipboard
+set clipboard+=unnamed
+
